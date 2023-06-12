@@ -1,0 +1,172 @@
+0,trajectory,course,property,ecs
+1,Computer Systemen,Architectuur en Computer Organisatie (CS), Fundamentele concepten(CS),6
+2,Computer Systemen,Architectuur en Computer Organisatie (CS), Assembly(CS),6
+3,Computer Systemen,Architectuur en Computer Organisatie (CS), Relatie hardware/software(CS),6
+4,Computer Systemen,Architectuur en Computer Organisatie (CS), Digitaal rekenen(CS),6
+5,Computer Systemen,Architectuur en Computer Organisatie (CS), Binaire representaties(CS),6
+6,Computer Systemen,Architectuur en Computer Organisatie (CS), Pipeline(CS),6
+7,Computer Systemen,Besturingssystemen (CS), De rol van het besturingssysteem(CS),6
+8,Computer Systemen,Besturingssystemen (CS), Scheduling en synchronisatie(CS),6
+9,Computer Systemen,Besturingssystemen (CS), Geheugenbeheer(CS),6
+10,Computer Systemen,Besturingssystemen (CS), Virtualisatie(CS),6
+11,Computer Systemen,Besturingssystemen (CS), Filesystemen(CS),6
+12,Computer Systemen,Besturingssystemen (CS), Systeembeveiliging(CS),6
+13,Computer Systemen,Distributed and Parallel Programming (CS), Computer Architectuur(CS),6
+14,Computer Systemen,Distributed and Parallel Programming (CS), Parallel Programmeren(CS),6
+15,Computer Systemen,Distributed and Parallel Programming (CS), GPU Programmeren(CS),6
+16,Computer Systemen,Distributed and Parallel Programming (CS), Big Data systemen(CS),6
+17,Computer Systemen,Distributed and Parallel Programming (CS), P2P en Gedecentraliseerde systemen(CS),6
+18,Computer Systemen,Distributed and Parallel Programming (CS), Literatuuronderzoek(CS),6
+19,Academische Vaardigheden,Academische Vaardigheden Informatica 1, Academische Vaardigheden (AVI1),1
+20,Academische Vaardigheden,Architectuur en Computer Organisatie (AV), Fundamentele concepten(AV),6
+21,Academische Vaardigheden,Architectuur en Computer Organisatie (AV), Assembly(AV),6
+22,Academische Vaardigheden,Architectuur en Computer Organisatie (AV), Relatie hardware/software(AV),6
+23,Academische Vaardigheden,Architectuur en Computer Organisatie (AV), Digitaal rekenen(AV),6
+24,Academische Vaardigheden,Architectuur en Computer Organisatie (AV), Binaire representaties(AV),6
+25,Academische Vaardigheden,Architectuur en Computer Organisatie (AV), Pipeline(AV),6
+26,Academische Vaardigheden,Internet of Things (AV), Analoog/Digitaal omzetting(AV),6
+27,Academische Vaardigheden,Internet of Things (AV), Interpolaties(AV),6
+28,Academische Vaardigheden,Internet of Things (AV), Sensoren(AV),6
+29,Academische Vaardigheden,Internet of Things (AV), Encryptie(AV),6
+30,Academische Vaardigheden,Internet of Things (AV), Project(AV),6
+31,Academische Vaardigheden,Academische Vaardigheden Informatica 2, Academische Vaardigheden(AVI2),1
+32,Academische Vaardigheden,Distributed and Parallel Programming (AV), Computer Architectuur(AV),6
+33,Academische Vaardigheden,Distributed and Parallel Programming (AV), Parallel Programmeren(AV),6
+34,Academische Vaardigheden,Distributed and Parallel Programming (AV), GPU Programmeren(AV),6
+35,Academische Vaardigheden,Distributed and Parallel Programming (AV), Big Data systemen(AV),6
+36,Academische Vaardigheden,Distributed and Parallel Programming (AV), P2P en Gedecentraliseerde systemen(AV),6
+37,Academische Vaardigheden,Distributed and Parallel Programming (AV), Literatuuronderzoek(AV),6
+38,Academische Vaardigheden,Introduction Computational Science (AV), Cellulaire Automaten(AV),6
+39,Academische Vaardigheden,Introduction Computational Science (AV), Gewone differentiaalvergelijking(AV),6
+40,Academische Vaardigheden,Introduction Computational Science (AV), Complexe netwerken(AV),6
+41,Academische Vaardigheden,Introduction Computational Science (AV), Modelleren en simuleren(AV),6
+42,Academische Vaardigheden,Introduction Computational Science (AV), Modellen implementeren(AV),6
+43,Academische Vaardigheden,Introduction Computational Science (AV), Verschillende soorten modellen(AV),6
+44,Academische Vaardigheden,Reflectie op de Digitale Samenleving (AV), Ethische kwesties(AV),6
+45,Academische Vaardigheden,Reflectie op de Digitale Samenleving (AV), Verschillende ethische benaderingen(AV),6
+46,Academische Vaardigheden,Reflectie op de Digitale Samenleving (AV), Copyright(AV),6
+47,Academische Vaardigheden,Reflectie op de Digitale Samenleving (AV), Digitale technologieën(AV),6
+48,Academische Vaardigheden,Reflectie op de Digitale Samenleving (AV), Historie(AV),6
+49,Academische Vaardigheden,Reflectie op de Digitale Samenleving (AV), Privacy(AV),6
+50,Data en Informatie Systemen,Datastructuren voor IN (DIS), Programmeertaal C(DIS),6
+51,Data en Informatie Systemen,Datastructuren voor IN (DIS), Algoritme analyse(DIS),6
+52,Data en Informatie Systemen,Datastructuren voor IN (DIS), Fundamentele datastructuren en algorimen(DIS),6
+53,Data en Informatie Systemen,Datastructuren voor IN (DIS), Geheugengebruik(DIS),6
+54,Data en Informatie Systemen,Datastructuren voor IN (DIS), Worst/Best case(DIS),6
+55,Data en Informatie Systemen,Datastructuren voor IN (DIS), Upper/Lower bound(DIS),6
+56,Data en Informatie Systemen,Internet of Things (DIS), Analoog/Digitaal omzetting(DIS),5
+57,Data en Informatie Systemen,Internet of Things (DIS), Interpolaties(DIS),5
+58,Data en Informatie Systemen,Internet of Things (DIS), Sensoren(DIS),5
+59,Data en Informatie Systemen,Internet of Things (DIS), Encryptie(DIS),5
+60,Data en Informatie Systemen,Internet of Things (DIS), Project(DIS),5
+61,Data en Informatie Systemen,Moderne Databases voor IN/IK (DIS), Data management(DIS),6
+62,Data en Informatie Systemen,Moderne Databases voor IN/IK (DIS), Analyse(DIS),6
+63,Data en Informatie Systemen,Moderne Databases voor IN/IK (DIS), Relationele datamodel(DIS),6
+64,Data en Informatie Systemen,Moderne Databases voor IN/IK (DIS), Databeveiliging(DIS),6
+65,Data en Informatie Systemen,Moderne Databases voor IN/IK (DIS), Datamanipulatietalen(DIS),6
+66,Data en Informatie Systemen,Networks and Network Security (DIS), Wat is het internet(DIS),6
+67,Data en Informatie Systemen,Networks and Network Security (DIS), Hoe werkt het internet(DIS),6
+68,Data en Informatie Systemen,Networks and Network Security (DIS), Netwerkprotocollen(DIS),6
+69,Data en Informatie Systemen,Networks and Network Security (DIS), Netwerk Architectuur(DIS),6
+70,Data en Informatie Systemen,Networks and Network Security (DIS), Communicatie beveiliging(DIS),6
+71,Data en Informatie Systemen,Networks and Network Security (DIS), Communicatie(DIS),6
+72,Mathematics and Computer Science Theory,Datastructuren voor IN (MCST),Programmeertaal C(MCST),6
+73,Mathematics and Computer Science Theory,Datastructuren voor IN (MCST),Algoritme analyse(MCST),6
+74,Mathematics and Computer Science Theory,Datastructuren voor IN (MCST),Fundamentele datastructuren en algorimen(MCST),6
+75,Mathematics and Computer Science Theory,Datastructuren voor IN (MCST),Geheugengebruik(MCST),6
+76,Mathematics and Computer Science Theory,Datastructuren voor IN (MCST),Worst/Best case(MCST),6
+77,Mathematics and Computer Science Theory,Datastructuren voor IN (MCST),Upper/Lower bound(MCST),6
+78,Mathematics and Computer Science Theory,Discrete Wiskunde en Logica (MCST), Verzamelingenleer(MCST),6
+79,Mathematics and Computer Science Theory,Discrete Wiskunde en Logica (MCST), Grafentheorie(MCST),6
+80,Mathematics and Computer Science Theory,Discrete Wiskunde en Logica (MCST), Indictie en recursie(MCST),6
+81,Mathematics and Computer Science Theory,Discrete Wiskunde en Logica (MCST), Combinatoriek en telprincipes(MCST),6
+82,Mathematics and Computer Science Theory,Discrete Wiskunde en Logica (MCST), Propositielogica(MCST),6
+83,Mathematics and Computer Science Theory,Discrete Wiskunde en Logica (MCST), Predicaatlogica(MCST),6
+84,Mathematics and Computer Science Theory,Lineaire algebra KI/INF (MCST), Vectoren(MCST),6
+85,Mathematics and Computer Science Theory,Lineaire algebra KI/INF (MCST), Matrices(MCST),6
+86,Mathematics and Computer Science Theory,Lineaire algebra KI/INF (MCST), Deelruimtes(MCST),6
+87,Mathematics and Computer Science Theory,Lineaire algebra KI/INF (MCST), Kleinste Kwadraten(MCST),6
+88,Mathematics and Computer Science Theory,Lineaire algebra KI/INF (MCST), SVD(MCST),6
+89,Mathematics and Computer Science Theory,Lineaire algebra KI/INF (MCST), Geometrisch; Algebraisch; Computationeel(MCST),6
+90,Mathematics and Computer Science Theory,Automaten en Formele Talen (MCST),Eindige automaten(MCST),6
+91,Mathematics and Computer Science Theory,Automaten en Formele Talen (MCST), Reguliere talen(MCST),6
+92,Mathematics and Computer Science Theory,Automaten en Formele Talen (MCST), Push-down automaten(MCST),6
+93,Mathematics and Computer Science Theory,Automaten en Formele Talen (MCST), Contextvrije talen(MCST),6
+94,Mathematics and Computer Science Theory,Automaten en Formele Talen (MCST), Turing machines(MCST),6
+95,Mathematics and Computer Science Theory,Automaten en Formele Talen (MCST), Berekenbaarheid(MCST),6
+96,Mathematics and Computer Science Theory,Internet of Things (MCST), Analoog/Digitaal omzetting(MCST),5
+97,Mathematics and Computer Science Theory,Internet of Things (MCST), Interpolaties(MCST),5
+98,Mathematics and Computer Science Theory,Internet of Things (MCST), Sensoren(MCST),5
+99,Mathematics and Computer Science Theory,Internet of Things (MCST), Encryptie(MCST),5
+100,Mathematics and Computer Science Theory,Internet of Things (MCST), Project(MCST),5
+101,Mathematics and Computer Science Theory,Algoritmen en Complexiteit (MCST), Complexiteitsmaten en -klassen(MCST),6
+102,Mathematics and Computer Science Theory,Algoritmen en Complexiteit (MCST), Optimalisatiealgoritmem(MCST),6
+103,Mathematics and Computer Science Theory,Algoritmen en Complexiteit (MCST), Dynamisch programmeren(MCST),6
+104,Mathematics and Computer Science Theory,Algoritmen en Complexiteit (MCST), Greedy algoritmen(MCST),6
+105,Mathematics and Computer Science Theory,Algoritmen en Complexiteit (MCST), Reducties(MCST),6
+106,Mathematics and Computer Science Theory,Algoritmen en Complexiteit (MCST), Complexe problemen(MCST),6
+107,Mathematics and Computer Science Theory,Numerical Recipes Project (MCST), Continue en Numerieke wiskunde(MCST),6
+108,Mathematics and Computer Science Theory,Numerical Recipes Project (MCST), Signaalverwerking(MCST),6
+109,Mathematics and Computer Science Theory,Numerical Recipes Project (MCST), Interpolaties(MCST),6
+110,Mathematics and Computer Science Theory,Numerical Recipes Project (MCST), Differentiëren(MCST),6
+111,Mathematics and Computer Science Theory,Numerical Recipes Project (MCST), Integreren(MCST),6
+112,Mathematics and Computer Science Theory,Numerical Recipes Project (MCST), Differentiaalvergelijkingen(MCST),6
+113,Mathematics and Computer Science Theory,Introduction Computational Science (MCST), Cellulaire Automaten(MCST),6
+114,Mathematics and Computer Science Theory,Introduction Computational Science (MCST), Gewone differentiaalvergelijking(MCST),6
+115,Mathematics and Computer Science Theory,Introduction Computational Science (MCST), Complexe netwerken(MCST),6
+116,Mathematics and Computer Science Theory,Introduction Computational Science (MCST), Modelleren en simuleren(MCST),6
+117,Mathematics and Computer Science Theory,Introduction Computational Science (MCST), Modellen implementeren(MCST),6
+118,Mathematics and Computer Science Theory,Introduction Computational Science (MCST), Verschillende soorten modellen(MCST),6
+119,Mathematics and Computer Science Theory,Statistisch Redeneren (MCST), Kansen(MCST),6
+120,Mathematics and Computer Science Theory,Statistisch Redeneren (MCST), Stochasten(MCST),6
+121,Mathematics and Computer Science Theory,Statistisch Redeneren (MCST), Dimensionaliteits reductie(MCST),6
+122,Mathematics and Computer Science Theory,Statistisch Redeneren (MCST), Classificatie(MCST),6
+123,Mathematics and Computer Science Theory,Statistisch Redeneren (MCST), Neurale netwerken(MCST),6
+124,Mathematics and Computer Science Theory,Statistisch Redeneren (MCST), Clustering(MCST),6
+125,Mathematics and Computer Science Theory,Introduction to Computer Vision (MCST), Computationele modellen(MCST),6
+126,Mathematics and Computer Science Theory,Introduction to Computer Vision (MCST), Low-level vision(MCST),6
+127,Mathematics and Computer Science Theory,Introduction to Computer Vision (MCST), SIFT(MCST),6
+128,Mathematics and Computer Science Theory,Introduction to Computer Vision (MCST), Pinhole camera; Camera kalibratie; Stereo Visie(MCST),6
+129,Mathematics and Computer Science Theory,Introduction to Computer Vision (MCST), Convolutionele Neurale Netwerken(MCST),6
+130,Mathematics and Computer Science Theory,Introduction to Computer Vision (MCST), Motion; Optisch stroomveld; Tracking(MCST),6
+131,Modelgebaseerde Systemen,Introduction to Computer Vision (MS), Computationele modellen(MS),6
+132,Modelgebaseerde Systemen,Introduction to Computer Vision (MS), Low-level vision(MS),6
+133,Modelgebaseerde Systemen,Introduction to Computer Vision (MS), SIFT(MS),6
+134,Modelgebaseerde Systemen,Introduction to Computer Vision (MS), Pinhole camera; Camera kalibratie; Stereo Visie(MS),6
+135,Modelgebaseerde Systemen,Introduction to Computer Vision (MS), Convolutionele Neurale Netwerken(MS),6
+136,Modelgebaseerde Systemen,Introduction to Computer Vision (MS), Motion; Optisch stroomveld; Tracking(MS),6
+137,Modelgebaseerde Systemen,Introduction Computational Science (MS), Cellulaire Automaten(MS),6
+138,Modelgebaseerde Systemen,Introduction Computational Science (MS), Gewone differentiaalvergelijking(MS),6
+139,Modelgebaseerde Systemen,Introduction Computational Science (MS), Complexe netwerken(MS),6
+140,Modelgebaseerde Systemen,Introduction Computational Science (MS), Modelleren en simuleren(MS),6
+141,Modelgebaseerde Systemen,Introduction Computational Science (MS), Modellen implementeren(MS),6
+142,Modelgebaseerde Systemen,Introduction Computational Science (MS), Verschillende soorten modellen(MS),6
+143,Software Systemen,Inleiding Programmeren (SWS), Programmeertaal C(SWS),6
+144,Software Systemen,Inleiding Programmeren (SWS), Design principes toepassen(SWS),6
+145,Software Systemen,Inleiding Programmeren (SWS), Gebruikmaken van referentiemateriaal(SWS),6
+146,Software Systemen,Inleiding Programmeren (SWS), Problemen opdelen in kleine onderdelen(SWS),6
+147,Software Systemen,Inleiding Programmeren (SWS), Debuggen(SWS),6
+148,Software Systemen,Inleiding Programmeren (SWS), Documentatie schrijven(SWS),6
+149,Software Systemen,Datastructuren voor IN (SWS),Programmeertaal C(SWS),6
+150,Software Systemen,Datastructuren voor IN (SWS),Algoritme analyse(SWS),6
+151,Software Systemen,Datastructuren voor IN (SWS),Fundamentele datastructuren en algorimen(SWS),6
+152,Software Systemen,Datastructuren voor IN (SWS),Geheugengebruik(SWS),6
+153,Software Systemen,Datastructuren voor IN (SWS),Worst/Best case(SWS),6
+154,Software Systemen,Datastructuren voor IN (SWS),Upper/Lower bound(SWS),6
+155,Software Systemen,Programmeertalen (SWS), Declaratieve talen(SWS),6
+156,Software Systemen,Programmeertalen (SWS), Gedsitribueerde talen(SWS),6
+157,Software Systemen,Programmeertalen (SWS), Object georiënteerde talen(SWS),6
+158,Software Systemen,Programmeertalen (SWS), Verschillen tussen talen(SWS),6
+159,Software Systemen,Programmeertalen (SWS), Taal ontwerpen(SWS),6
+160,Software Systemen,Programmeertalen (SWS), Computer programma's schrijven(SWS),6
+161,Software Systemen,Networks and Network Security (SWS), Wat is het internet(SWS),6
+162,Software Systemen,Networks and Network Security (SWS), Hoe werkt het internet(SWS),6
+163,Software Systemen,Networks and Network Security (SWS), Netwerkprotocollen(SWS),6
+164,Software Systemen,Networks and Network Security (SWS), Netwerk Architectuur(SWS),6
+165,Software Systemen,Networks and Network Security (SWS), Communicatiebeveiliging(SWS),6
+166,Software Systemen,Networks and Network Security (SWS), Communicatie(SWS),6
+167,Software Systemen,Project Software Engineering (SWS), Project(SWS),5
+168,Software Systemen,Project Software Engineering (SWS), Grote schaal software project(SWS),5
+169,Software Systemen,Project Software Engineering (SWS), SWEBOK(SWS),5
+170,Software Systemen,Project Software Engineering (SWS), Energie bewustheid(SWS),5
+171,Software Systemen,Project Software Engineering (SWS), Reflectie op persoonlijke ontwikkeling(SWS),5

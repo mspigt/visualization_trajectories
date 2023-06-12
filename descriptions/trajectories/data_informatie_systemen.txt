@@ -1,0 +1,7 @@
+In dit traject leer je:<br>
+* Verschillende representaties van datastructuren uit te kunnen leggen en dus<br>
+  data te kunnen organiseren, opslaan en ophalen<br>
+* Het vertalen van informatie naar de bijbehorende datastructuur<br>
+* Het designen van websystemen<br>
+* De fundamenten van internet operaties en de kernprotocollen uitleggen<br>
+<b>Klik om de vakken in dit traject te zien!

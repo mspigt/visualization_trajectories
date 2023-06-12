@@ -1,0 +1,9 @@
+In dit traject leer je:<br>
+* Programma's ontwikkelen en ontwerpen<br>
+* Het omzetten van een reek instructies in een computeralgoritme en deze<br>
+  vervolgens te implementeren<br>
+* Beredeneren welk programmeerparadigma het meest geschikt is voor het<br>
+  implementeren van een algoritmes<br>
+* Gegeven software te analyseren, evalueren en aanvullen<br>
+* Geschreven code te structureren en documenteren<br>
+<b>Klik om de vakken in dit traject te zien!

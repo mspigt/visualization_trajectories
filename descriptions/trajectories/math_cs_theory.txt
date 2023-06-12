@@ -1,0 +1,10 @@
+In dit traject leer je:<br>
+* Het begrijpen van wiskundige concepten en stellingen die ten grondslag liggen aan Informatica<br>
+* Het toepassen van wiskundige en computationele methodes om problemen op te lossen<br>
+* Het omzetten van wiskundige en theoretische algoritmes naar werkende programma's<br>
+* Het analyseren van de eigenschappen en beperkingen van computtationele problemen en processen,<br>
+  met behulp van wiskundige en theoretische methoden.<br>
+* Het bewijs of tegenwijs te leveren voor stellingen in wiskunde en theoretische Informatica<br>
+* Problemen modelleren in de vorm van wiskundige modellen en de correcte methodes kiezen<br>
+  om oplossingen te bedenken en te analyseren<br>
+<b>Klik om de vakken in dit traject te zien!
