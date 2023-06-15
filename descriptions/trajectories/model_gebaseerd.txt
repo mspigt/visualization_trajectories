@@ -1,8 +1,0 @@
-In dit traject leer je:<br>
-* De toegepaste waarde van model gebaseerde systemen uit te leggen<br>
-* Verschillende model gebaseerde systemen en hun eigenschappen te benoemen<br>
-* Basis modelgebaseerde systemen te programmeren<br>
-* Een analyse uit the voeren om de geldigheid, nauwkeurigheid en prestaties van<br>
-  een modelgebaseerd systeem te bepalen<br>
-* Modellen te kunnen voorstellen voor realistische fenomenen<br>
-<b>Klik om de vakken in dit traject te zien!

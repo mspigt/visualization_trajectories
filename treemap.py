@@ -23,7 +23,10 @@ from dash.dependencies import Input, Output
 app = dash.Dash(__name__)
 app.title = "Visualisatie leerlijnen"
 # read data file
-df = pd.read_csv('new_data.csv')
+sheet = "https://docs.google.com/spreadsheets/d/10UCdVVGtJNmEkLoJGqDAduRmQMAa_Z0sYsEFsKCN5AI/export?format=csv&gid=137840079"
+df = pd.read_csv(sheet)
+sheet_2 = "https://docs.google.com/spreadsheets/d/1CexXZkL6qVgCB0chLWqKDMA714ocBT3W6G_hmKgu52w/export?format=csv&gid=0"
+descriptions = pd.read_csv(sheet_2)
 # set global count for button clicks
 count = 0
 
@@ -50,44 +53,45 @@ def build_treemap_dataframe(df, levels):
             entry['parent'] = dfg[levels[i+1]].copy()
         else:
             entry['parent'] = 'BSc Informatica Trajecten'
+
         entry['hovertext'] = entry['id'].map({
-            'Computer Systemen': Path('descriptions/trajectories/computer_systemen.txt').read_text(),
-            'Academische Vaardigheden': Path('descriptions/trajectories/academische_vaardigheden.txt').read_text(),
-            'Data en Informatie Systemen': Path('descriptions/trajectories/data_informatie_systemen.txt').read_text(),
-            'Mathematics and Computer Science Theory': Path('descriptions/trajectories/math_cs_theory.txt').read_text(),
-            'Modelgebaseerde Systemen': Path('descriptions/trajectories/model_gebaseerd.txt').read_text(),
-            'Software Systemen': Path('descriptions/trajectories/software_systemen.txt').read_text(),
-            'Academische Vaardigheden Informatica 1': Path('descriptions/courses/y1/avi1.txt').read_text(),
-            'Architectuur en Computer Organisatie (CS)': Path('descriptions/courses/y1/arco.txt').read_text(),
-            'Architectuur en Computer Organisatie (AV)': Path('descriptions/courses/y1/arco.txt').read_text(),
-            'Inleiding Programmeren (SWS)': Path('descriptions/courses/y1/ip.txt').read_text(),
-            'Discrete Wiskunde en Logica (MCST)': Path('descriptions/courses/y1/diswis.txt').read_text(),
-            'Datastructuren voor IN (DIS)': Path('descriptions/courses/y1/datastructuren.txt').read_text(),
-            'Datastructuren voor IN (SWS)': Path('descriptions/courses/y1/datastructuren.txt').read_text(),
-            'Datastructuren voor IN (MCST)': Path('descriptions/courses/y1/datastructuren.txt').read_text(),
-            'Programmeertalen (SWS)': Path('descriptions/courses/y1/progtalen.txt').read_text(),
-            'Lineaire algebra KI/INF (MCST)': Path('descriptions/courses/y1/linalg.txt').read_text(),
-            'Automaten en Formele Talen (MCST)': Path('descriptions/courses/y1/aft.txt').read_text(),
-            'Besturingssystemen (CS)': Path('descriptions/courses/y1/besturingssys.txt').read_text(),
-            'Internet of Things (MCST)': Path('descriptions/courses/y1/iot.txt').read_text(),
-            'Internet of Things (AV)': Path('descriptions/courses/y1/iot.txt').read_text(),
-            'Internet of Things (DIS)': Path('descriptions/courses/y1/iot.txt').read_text(),
-            'Academische Vaardigheden Informatica 2': Path('descriptions/courses/y2/avi2.txt').read_text(),
-            'Networks and Network Security (DIS)': Path('descriptions/courses/y2/nns.txt').read_text(),
-            'Networks and Network Security (SWS)': Path('descriptions/courses/y2/nns.txt').read_text(),
-            'Moderne Databases voor IN/IK (DIS)': Path('descriptions/courses/y2/moderne_db.txt').read_text(),
-            'Distributed and Parallel Programming (CS)': Path('descriptions/courses/y2/dpp.txt').read_text(),
-            'Distributed and Parallel Programming (AV)': Path('descriptions/courses/y2/dpp.txt').read_text(),
-            'Numerical Recipes Project (MCST)': Path('descriptions/courses/y2/nrp.txt').read_text(),
-            'Algoritmen en Complexiteit (MCST)': Path('descriptions/courses/y2/alco.txt').read_text(),
-            'Introduction Computational Science (MCST)': Path('descriptions/courses/y2/ics.txt').read_text(),
-            'Introduction Computational Science (MS)': Path('descriptions/courses/y2/ics.txt').read_text(),
-            'Introduction Computational Science (AV)': Path('descriptions/courses/y2/ics.txt').read_text(),
-            'Statistisch Redeneren (MCST)': Path('descriptions/courses/y2/sr.txt').read_text(),
-            'Introduction to Computer Vision (MCST)': Path('descriptions/courses/y2/icv.txt').read_text(),
-            'Introduction to Computer Vision (MS)': Path('descriptions/courses/y2/icv.txt').read_text(),
-            'Reflectie op de Digitale Samenleving (AV)': Path('descriptions/courses/y2/reflectie.txt').read_text(),
-            'Project Software Engineering (SWS)': Path('descriptions/courses/y2/pse.txt').read_text(),
+            'Computer Systemen': descriptions['Descriptions'][0],
+            'Academische Vaardigheden': descriptions['Descriptions'][1],
+            'Data en Informatie Systemen': descriptions['Descriptions'][2],
+            'Math and Computer Science Theory': descriptions['Descriptions'][3],
+            'Modelgebaseerde Systemen': descriptions['Descriptions'][4],
+            'Software Systemen': descriptions['Descriptions'][5],
+            'Academische Vaardigheden Informatica 1': descriptions['Descriptions'][6],
+            'Architectuur en Computer Organisatie (CS)': descriptions['Descriptions'][7],
+            'Architectuur en Computer Organisatie (AV)': descriptions['Descriptions'][7],
+            'Inleiding Programmeren (SWS)': descriptions['Descriptions'][8],
+            'Discrete Wiskunde en Logica (MCST)': descriptions['Descriptions'][9],
+            'Datastructuren voor IN (DIS)': descriptions['Descriptions'][10],
+            'Datastructuren voor IN (SWS)': descriptions['Descriptions'][10],
+            'Datastructuren voor IN (MCST)': descriptions['Descriptions'][10],
+            'Programmeertalen (SWS)': descriptions['Descriptions'][12],
+            'Lineaire algebra KI/INF (MCST)': descriptions['Descriptions'][13],
+            'Automaten en Formele Talen (MCST)': descriptions['Descriptions'][14],
+            'Besturingssystemen (CS)': descriptions['Descriptions'][15],
+            'Internet of Things (MCST)': descriptions['Descriptions'][16],
+            'Internet of Things (AV)': descriptions['Descriptions'][16],
+            'Internet of Things (DIS)': descriptions['Descriptions'][16],
+            'Academische Vaardigheden Informatica 2': descriptions['Descriptions'][17],
+            'Networks and Network Security (DIS)': descriptions['Descriptions'][18],
+            'Networks and Network Security (SWS)': descriptions['Descriptions'][18],
+            'Moderne Databases voor IN/IK (DIS)': descriptions['Descriptions'][19],
+            'Distributed and Parallel Programming (CS)': descriptions['Descriptions'][20],
+            'Distributed and Parallel Programming (AV)': descriptions['Descriptions'][20],
+            'Algoritmen en Complexiteit (MCST)': descriptions['Descriptions'][21],
+            'Numerical Recipes Project (MCST)': descriptions['Descriptions'][22],
+            'Introduction Computational Science (MCST)': descriptions['Descriptions'][23],
+            'Introduction Computational Science (MS)': descriptions['Descriptions'][23],
+            'Introduction Computational Science (AV)': descriptions['Descriptions'][23],
+            'Statistisch Redeneren (MCST)': descriptions['Descriptions'][24],
+            'Introduction to Computer Vision (MCST)': descriptions['Descriptions'][25],
+            'Introduction to Computer Vision (MS)': descriptions['Descriptions'][25],
+            'Reflectie op de Digitale Samenleving (AV)': descriptions['Descriptions'][26],
+            'Project Software Engineering (SWS)': descriptions['Descriptions'][27],
         })
 
         dataframe = pd.concat([dataframe,entry], ignore_index=True)
@@ -106,7 +110,7 @@ trajectory_colors = {
     'Computer Systemen': '#FF8986',
     'Academische Vaardigheden': '#96DD99',
     'Data en Informatie Systemen': '#FDFD96',
-    'Mathematics and Computer Science Theory':'#AFD5F0',
+    'Math and Computer Science Theory':'#AFD5F0',
     'Modelgebaseerde Systemen':'#FFBE65',
     'Software Systemen': '#C3B1E1',
 }
@@ -157,7 +161,7 @@ app.layout = html.Div(
                 # div component for the chart
                 html.Div(
                     dcc.Graph(
-                        figure=fig,
+                        figure=fig.update_layout(font={'size': 17}),
                         style={'height': 'calc(80vh - 70px)', 'font-family': 'Roboto', 'padding-top': '5px'},
                     )
                 ),
@@ -204,4 +208,4 @@ def displayClick(btn1):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8051)
+    app.run_server(debug=False, port=8051)
