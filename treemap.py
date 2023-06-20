@@ -14,9 +14,7 @@ import plotly.graph_objects as go
 import pandas as pd
 import dash
 from dash import dcc, ctx, html
-import pandas as pd
 import plotly.graph_objects as go
-from pathlib import Path
 from dash.dependencies import Input, Output
 
 # set application name
@@ -97,12 +95,16 @@ def build_treemap_dataframe(df, levels):
         dataframe = pd.concat([dataframe,entry], ignore_index=True)
 
     # the root of the chart
-    bit = pd.DataFrame([dict(id='BSc Informatica Trajecten', parent='', hovertext='De BSc Informatica bestaat uit zes trajecten', ec='180')])
+    bit = pd.DataFrame([dict(id='BSc Informatica Trajecten', parent='',
+                             hovertext='De BSc Informatica bestaat uit zes trajecten',
+                             ec='180')])
     dataframe = pd.concat([dataframe, bit], ignore_index=True)
 
     # set hovertext for properties
     dataframe = dataframe.fillna('Voor meer informatie, raadpleeg studiegids.uva.nl/')
+
     return dataframe
+
 
 # dict to set the colors for the squares in the treemap, based on the
 # colors in datanose
@@ -110,8 +112,8 @@ trajectory_colors = {
     'Computer Systemen': '#FF8986',
     'Academische Vaardigheden': '#96DD99',
     'Data en Informatie Systemen': '#FDFD96',
-    'Math and Computer Science Theory':'#AFD5F0',
-    'Modelgebaseerde Systemen':'#FFBE65',
+    'Math and Computer Science Theory': '#AFD5F0',
+    'Modelgebaseerde Systemen': '#FFBE65',
     'Software Systemen': '#C3B1E1',
 }
 
@@ -119,7 +121,8 @@ trajectory_colors = {
 dataframe = build_treemap_dataframe(df, levels)
 
 # set the color for the different trajectories using the color dict
-dataframe.loc[dataframe['parent'] == 'BSc Informatica Trajecten', 'color'] = dataframe['id'].map(trajectory_colors)
+dataframe.loc[dataframe['parent'] == 'BSc Informatica Trajecten',
+              'color'] = dataframe['id'].map(trajectory_colors)
 fig = go.Figure()
 
 # set properties of the figure
@@ -138,31 +141,40 @@ fig.update_layout(margin=dict(t=50, l=25, r=25, b=25))
 
 # set the lay out of the page
 app.layout = html.Div(
-    style={'display': 'flex', 'justify-content': 'center', 'align-items': 'center', 'height': '90vh'},
+    style={'display': 'flex', 'justify-content': 'center',
+           'align-items': 'center', 'height': '90vh'},
     children=[
         html.Div(
-            style={'width': '80%', 'display': 'grid', 'grid-template-columns': '1fr'},
+            style={'width': '80%', 'display': 'grid',
+                   'grid-template-columns': '1fr'},
             children=[
                 # div component for the title and the button
                 html.Div(
-                    style={'display': 'flex', 'justify-content': 'space-between', 'align-items': 'center', 'margin-bottom': '10px'},
+                    style={'display': 'flex',
+                           'justify-content': 'space-between',
+                           'align-items': 'center', 'margin-bottom': '10px'},
                     children=[
-                        html.H1('Visualisatie van de inhoud van BSc Informatica', style={'font-family': 'Roboto'}),
+                        html.H1('Visualisatie van de inhoud van BSc Informatica',
+                                style={'font-family': 'Roboto'}),
                         html.Button('Uitleg', id='button_id', n_clicks=0),
                     ]
                 ),
                 # div component for the text from the explanation button
                 html.Div(
-                    style={'display': 'flex', 'justify-content': 'center', 'margin-bottom': '10px', 'margin-top': '-10px'},
+                    style={'display': 'flex', 'justify-content': 'center',
+                           'margin-bottom': '10px', 'margin-top': '-10px'},
                     children=[
-                        html.Div('', id='container-button-timestamp', style={'margin-top': '0px', 'font-family': 'Roboto'}),
+                        html.Div('', id='container-button-timestamp',
+                                 style={'margin-top': '0px',
+                                        'font-family': 'Roboto'}),
                     ]
                 ),
                 # div component for the chart
                 html.Div(
                     dcc.Graph(
                         figure=fig.update_layout(font={'size': 17}),
-                        style={'height': 'calc(80vh - 70px)', 'font-family': 'Roboto', 'padding-top': '5px'},
+                        style={'height': 'calc(80vh - 70px)',
+                               'font-family': 'Roboto', 'padding-top': '5px'},
                     )
                 ),
             ],
