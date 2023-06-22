@@ -10,12 +10,14 @@ When you execute the Python file, it will start a local web server on a specific
 
 The data that is used is being stored using *Google Sheets*. These files can be found [here (trajectories, courses, keywords)](https://docs.google.com/spreadsheets/d/10UCdVVGtJNmEkLoJGqDAduRmQMAa_Z0sYsEFsKCN5AI/edit?usp=sharing) and [here (descriptions)](https://docs.google.com/spreadsheets/d/1CexXZkL6qVgCB0chLWqKDMA714ocBT3W6G_hmKgu52w/edit?usp=sharing).
 
-**Requirements**
+#### Requirements
+
 The code uses the following programming language and corresponding libraries:
 - [Python](https://www.python.org/)
 - [Dash](https://dash.plotly.com/)
 - [Plotly](https://plotly.com/)
 - [Pandas](https://pandas.pydata.org/)
 
-**Experiments**
+#### Experiments
+
 The `php` file that has been used as a landing page for the experiments can be found in the `experiments/` folder, including the corresponding `css` file and images.
