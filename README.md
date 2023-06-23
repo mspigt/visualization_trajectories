@@ -20,4 +20,10 @@ The code uses the following programming language and corresponding libraries:
 
 #### Experiments
 
-The `php` file that has been used as a landing page for the experiments can be found in the `experiments/` folder, including the corresponding `css` file and images.
+The `php` file that has been used as a *landing page* for the experiments can be found in the `experiments/` folder, including the corresponding `css` file and images.
+In the `experiments/results` folder, the results can be found.
+- `Beoordeling_informatievisualisatie_tools_raw.csv`
+The *raw* data contains the direct results from the questionnaire.
+- `Beoordeling_informatievisualisatie_tools_adapted.csv`
+The *adapted* data has *flipped* the answers to the negatively phrased statements. This means that totally agrees has changed to totally disagrees. The negatively phrased statements are marked with an **asterisk(*)**
+
